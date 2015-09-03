@@ -6,6 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div id="author">
+    	<h1>By <a href="http://www.inaschmitz.com/" target="_blank">Ina Schmitz</a></h1>
+    </div>
+
 	<div id="header">
 		<p id="scoreBoard">YOUR SCORE: 0</p>
 		<p id="highScore">HIGHSCORE: 0</p>
