@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<highscores>
+	<entry>
+		<user>abc</user>
+		<score>1</score>
+	</entry>	
+	<entry>
+		<user>edf</user>
+		<score>2</score>
+	</entry>
+	<entry>
+		<user>ghi</user>
+		<score>3</score>
+	</entry>
+	<entry>
+		<user>jkl</user>
+		<score>3</score>
+	</entry>
+	<entry>
+		<user>mno</user>
+		<score>3</score>
+	</entry>
+<entry><user>ina</user><score>10</score></entry></highscores>

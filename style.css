@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Press Start 2P', monospace;
+}
+
+td {
+	width: 8px;
+	height: 8px;
+}
+
+body, .snakeCell, .snakeHead {
+	background: black;
+	box-shadow: 1px 1px gray;
+	border-radius: 2px;
+}
+
+body {
+	box-shadow: none;
+}
+
+table, #header, #retry, #pause, #start, #startMenu, #submit, #highScoreList, #newHighScore {
+	border: 2px solid black;
+	background-color: #B7EEAF;
+	border-radius: 7px;
+}
+
+table {
+	border: 3px dotted black;
+	display: table;
+	margin: 0 auto 10px;
+	table-layout: fixed;
+	vertical-align: middle;
+	width: 400px;
+}
+
+input {
+	height: 20px;
+	text-transform: uppercase;
+	width: 40px;
+}
+
+ul {
+	display: table;
+	list-style: none;
+	margin: 5px auto;
+	text-align: left;
+}
+ 
+li {
+	margin-top: 5px;
+}
+
+.fruitCell {
+	background: black;
+	border: 1px dotted #B7EEAF;
+}
+
+#header {
+	font-size: 9px;
+	margin: 50px auto 0;
+	padding: 10px;
+	width: 400px;
+}
+
+#header p {
+	display: inline-block;
+}
+
+#highScore {
+	cursor: pointer;
+	float: right;
+}
+
+#highScoreList {
+	display: table;
+	vertical-align: middle;
+}
+
+#retry, #pause, #startMenu, #highScoreList, #newHighScore { /* all msg-windows */
+	background-color: #C4FFBB;
+	box-shadow: 1px 1px gray;
+	cursor: pointer;
+	display: none;
+	font-size: 13px;
+	left: 0;
+	margin: 70px auto;
+	padding: 20px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 200px;
+	z-index: 999;
+}
+
+#walls p, #boardSize p {
+	display: inline-block;
+	font-size: 11px;
+	margin: 10px 0 0;
+}
+
+#m, #wallsOn, h4 {
+	text-decoration: underline;
+}
+
+#start, #highScoreList p, #submit {
+	background-color: #C4FFBB;
+	display: inline-block;
+	margin-top: 25px;
+	padding: 5px;
+}
+
+#submit {
+	margin-top: 0;
+	padding: 0;
+}
+
+#highScoreValue {
+	font-size: 20px;
+	margin: 10px 0 20px;
+}
