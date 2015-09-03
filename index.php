@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div id="author">
-    	<h1>By <a href="http://www.inaschmitz.com/" target="_blank">Ina Schmitz</a></h1>
+    	<h1>By <a href="http://www.inaschmitz.com/" target="_blank">Ina Schmitz</a> | <a href="https://github.com/inaschmitz/snake" target="_blank">View source</a></h1>
     </div>
 
 	<div id="header">
